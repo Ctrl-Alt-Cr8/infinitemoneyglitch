@@ -1,0 +1,21 @@
+# Environment / secrets
+.env
+.venv/
+
+# Google OAuth secrets
+credentials.json
+token.json
+token.pickle
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local output files
+outputs/
+
+# Local testing scripts
+test_send_email.py
+
+# SQLite databases
+app/storage/*.db
